@@ -512,6 +512,8 @@ static NSString *const AWSServiceNameTranscribeStreaming = @"transcribe";
             return AWSServiceNameKinesis;
         case AWSServiceKinesisVideo:
             return AWSServiceNameKinesisVideo;
+        case AWSServiceKinesisVideoSignaling:
+            return AWSServiceNameKinesisVideo;
         case AWSServiceKinesisVideoArchivedMedia:
             return AWSServiceNameKinesisVideoArchivedMedia;
         case AWSServiceLambda:
